@@ -1,0 +1,45 @@
+body{
+	background-image: url('../images/benny.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 1.3em;
+}
+
+header{
+	font-size: 1.7em;
+	text-align: center;
+	color: white;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+	color: white;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	width: 31em;
+	height: 15em;
+	margin: auto;
+	background: rgba(0,0,0, 0.5);
+	padding-top: 2em;
+	border-radius: 1.250em;
+	
+}
+
+.question{
+	font-size: 1.1em;
+}
+
+#submit{
+	font-size: 1em;
+	margin-top: 1.5em;
+}
+
+
+#answer_holder{
+	margin-top: 1.3em;
+}
+
+#bottom{
+	margin-top: 2.5em;
+	font-size: .8em;
+}
