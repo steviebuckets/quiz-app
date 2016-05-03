@@ -2,16 +2,16 @@ $(document).ready(function() {
   //quiz questions
 
         
-
-        //variables
+				//variables
         var numberCorrect = 0;
         var currentQuestion = 0;
 
         $("#submit").on("click",function () {
-        alert("Test!");
+        currentQuestion++;
+        nextQuestion();
     });
-
 });
+
 
 var questions = [{
             question: "What year was Michael Jordan Drafted?",
