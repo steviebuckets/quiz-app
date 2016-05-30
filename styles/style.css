@@ -1,45 +1,67 @@
 body{
-	background-image: url('../images/benny.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-size: 1.3em;
+font-family: sans-serif;
+background-image: url("../images/benny.png");
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+color: #F8F8FF;
+
 }
 
-header{
-	font-size: 1.7em;
-	text-align: center;
-	color: white;
-	font-family: 'Noto Sans', sans-serif;
+#wrapper { 
+width:550px;
+margin:20px auto;
 }
 
-.container{
-	color: white;
-	font-family: 'Noto Sans', sans-serif;
-	text-align: center;
-	width: 31em;
-	height: 15em;
-	margin: auto;
-	background: rgba(0,0,0, 0.5);
-	padding-top: 2em;
-	border-radius: 1.250em;
-	
+h1{
+text-align:center;
+font-size: 40px;
+color: #E2E2E2;
+font-family: 'Candal', sans-serif;
+margin-top: 180px;
+-webkit-font-smoothing: antialiased;
 }
 
-.question{
-	font-size: 1.1em;
+.start {
+background: #E2E2E2;
+color: #E2E2E2;
+cursor: pointer;
+letter-spacing: 1px;
+padding: 10px 0;
+border-radius: 5px;
+color: black;
+width:20%;
+font-weight: 500;
 }
 
-#submit{
-	font-size: 1em;
-	margin-top: 1.5em;
+.next {
+background: #E2E2E2;
+color: black;
+cursor: pointer;
+letter-spacing: 1px;
+padding: 10px 0;
+border-radius: 5px;
+color: black;
+margin-top:20px;
+margin-left: 130px;
+display:block;
+width:50%;
+font-weight: 700;
 }
 
-
-#answer_holder{
-	margin-top: 1.3em;
+.reset {
+background: #E2E2E2;
+color: #E2E2E2;
+cursor: pointer;
+letter-spacing: 1px;
+padding: 10px 0;
+border-radius: 5px;
+color: black;
+width:20%;
+font-weight: 500;
 }
 
-#bottom{
-	margin-top: 2.5em;
-	font-size: .8em;
+#questions {
+	color: #D1D1D1;
+	font-family: 'Open Sans', sans-serif;
 }

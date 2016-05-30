@@ -2,49 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Chicago Bulls Fan Quiz</title>
+	<title>Chicago Bulls Fan Quiz!</title>
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="styles/style.css"/>
-	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	
-	<!-- Header -->
-	<header class="masthead">
-		<h1 class="masthead-heading">Chicago Bulls Fan Quiz</h1>
-	</header>
+<div id="wrapper">
+<h1>Chicago Bulls Fan Quiz</h1>
+<button type="button" class="start" value="start">START</button>
+<button name="reset" id="reset" class="reset">RESET</button>
 
-	<!-- Quiz Container -->
-	<div class="container">
-		<div id="question_wrapper">
-		<span class="question">What year was Michael Jordan Drafted?</span></br>
-		
-		<div id="answer_holder">
-			<input type="radio" name="option" class="option" value="0">
-			<span class="answer">1984</span></br>
-			<input type="radio" name="option" class="option" value="1">
-			<span class="answer">1986</span></br>
-			<input type="radio" name="option" class="option" value="2">
-			<span class="answer">1988</span></br>
-		</div>
-
-			<div id="button_holder">
-				<button id="submit">Submit Answer</button>
-				<span id="hint"></span>
-			</div>
-	</div>
-
-	<div id="bottom">
-		<div id="score_holder">
-		</div>
-		<div id="fact_holder">
-			<span id="last_question_fact" style="display: inline;">
-			</span>
-		</div>
-	</div>
+<div id="questions">
+            	
 </div>
-	
-	
+</div>
+              
 <!-- JavaScript -->
 <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/app.js"></script>
